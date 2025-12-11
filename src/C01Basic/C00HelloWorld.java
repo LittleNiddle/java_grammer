@@ -1,0 +1,27 @@
+package C01Basic;
+
+// 클래스의 명명규칙
+// 1) 반드시 public class명과 파일명이 일치해야함
+// 2) 일반적으로 대문자 알파벳으로 시작
+
+public class C00HelloWorld {
+    // 1) main메서드는 java 파일 실행시 시작점이자, 가장 먼저 실행되는 메서드
+    // 2) public static void : 어디에서든 접근 가능하고, 반환(라턴)값이 없는 메서드
+    // 3) 메서드명, 변수명은 일반적으로 소문자 알파벳으로 시작
+    public static void main(String[] args) {
+        // print 단축어 : sout
+        // semicolon으로 명령문 종료
+        System.out.println("Hello world");
+        // 메서드를 호출할 때는 메서드명()를 통해 호출
+        System.out.println(method2());
+//  //는 컴파일 대상에서 제외처리하는 주석. cntrl + /
+        /*
+        여러 줄의 주석처리를 이와 같은 방법으로
+        깔끔하게 주석처리 하는 것도 가능
+         */
+    }
+    // 직접 생성한 리턴값이 있는 메서드 예시
+    public static int method2(){
+        return 10;
+    }
+}
