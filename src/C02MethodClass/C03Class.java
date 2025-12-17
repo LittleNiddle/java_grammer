@@ -68,7 +68,7 @@ class Calculator{
 class CalculatorForInstance{
     int total = 0;
 //    메서드에 static이 있는 경우는 class 메서드
-//    class 메서드는 일반적으로 객체의 상태와 상관 없는 독립적인 로직 수행시에 사용
+//    class 메서드는 일반적으로 객체의 상태와 상관 없는 독립적인 로직 수행 시에 사용
 //    class 메서드 호출시 : 클래스명.메서드명();
     public static int sum(int a, int b){
         return a + b;

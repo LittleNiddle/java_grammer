@@ -10,7 +10,7 @@ public class C06MethodOverloading {
 //        메서드 오버로딩 후 해당 메서드 호출
         System.out.println(sum(10, 20));
         System.out.println(sum(10, 20, 30));
-        System.out.println(sum(10.5, 20.5));;
+        System.out.println(sum(10.5, 20.5));
 
 //        또다른 메서드 오버로딩 사례
         System.out.println("hello");
